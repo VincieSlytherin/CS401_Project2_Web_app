@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: project2-web-service
+spec:
+  selector:
+    app: project2-web
+  ports:
+    - protocol: TCP
+      port: 5005
+      targetPort: 5005

@@ -11,9 +11,9 @@ spec:
   template:
     metadata:
       labels:
-        app: project2-web
-    
+        app: project2-web  
     spec:
+
       containers:
       - name: project2-web
         image: quay.io/ran_ju_vincie/cs401_project2_web:8a38321

@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: project2-web
+    
     spec:
       containers:
       - name: project2-web

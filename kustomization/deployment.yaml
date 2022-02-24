@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: project2-web
-        image: quay.io/ran_ju_vincie/cs401_project2_web:v2
+        image: quay.io/ran_ju_vincie/cs401_project2_web:a4274b0
         ports:
         - containerPort: 5005
